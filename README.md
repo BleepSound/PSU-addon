@@ -1,38 +1,15 @@
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
 # PSU addon
 
-PSU Addon to create a stable +/-12V voltage for your case. 
-Input can be up to 35V **DC**.
+Latest documentation available at https://bleepsound.github.io/modules/
 
-This is designed to be used (in my case) with a meanwell RT65C. Input in my case will be +/-15V. 
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-The input capacitor is oversized because I had those lying around. But you could use anything a bit smaller. Check the voltage regulators datasheet if you want to make sure. 
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-## Schematics
-
-![PSU addon schematic](documentation/image/PSU-addon--Schematic.svg)
-
-
-## BoM
-
-[See bom](documentation/bom/PSU-addon_V1.0--iBoM.html)
-
-You have a bom in excel format available in the bom folder. 
-
-## Build Informations
-
-Put heatsink elements on the voltage regulators, as they will get really hot during use. 
-
-:warning: When building modules, always do it in this order (from smallest component to highest):
-- diodes
-- resistors
-- Electrolytic capacitors (small ones)
-- Terminal blocks connectors
-- Voltage regulators
-- Oversized electrolytic capacitors
-
-![3D PSU addon(front)](documentation/image/PSU-addon-3D_top.png)
-
-![3D PSU addon(back)](documentation/image/PSU-addon-3D_bottom.png)
-
-![3D PSU addon(iso)](documentation/image/PSU-addon-3D_top30deg.png)
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
